@@ -22,8 +22,20 @@ button {
   cursor: pointer;
 }
 
+.hide {
+  display: none;
+}
+
+.light-mode,
+.dark-mode {
+  align-self: start;
+  justify-self: end;
+
+  padding: 6rem 6rem 0 0;
+}
+
 main {
-  align-self: end;
+  align-self: start;
   justify-self: center;
   display: flex;
   gap: 19.2rem;
@@ -71,4 +83,14 @@ main {
 
 .sons__card svg path {
   fill: #323238;
+}
+
+.sons__card input {
+  width: 9rem;
+  height: 1.6rem;
+  position: absolute;
+  top: 11.2rem;
+  right: 2.4rem;
+  bottom: 2.4rem;
+  left: 2.4rem;
 }
